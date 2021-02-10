@@ -1,0 +1,31 @@
+{
+  "name": "jncinet/qihucms-scan-recharge",
+  "description": "qihucms scan recharge.",
+  "keywords": [
+    "laravel",
+    "qihucms",
+    "scan",
+    "recharge"
+  ],
+  "homepage": "https://www.qihucms.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhangye",
+      "email": "y@qilephp.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Qihucms\\ScanRecharge\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Qihucms\\ScanRecharge\\ScanRechargeServiceProvider"
+      ]
+    }
+  }
+}
